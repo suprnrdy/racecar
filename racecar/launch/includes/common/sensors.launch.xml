@@ -10,6 +10,6 @@
   <node pkg="urg_node" type="urg_node" name="laser_node" />
 
   <!-- imu -->
-  <node pkg="razor_imu_9dof" type="imu_node.py" name="imu_node" />
+  <node pkg="razor_imu_m0_driver" type="factory_firmware_driver_node" name="imu_node" />
 
 </launch>
